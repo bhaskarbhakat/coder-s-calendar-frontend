@@ -1,0 +1,40 @@
+.column {
+  float: left;
+  width: 40%;
+  padding: 8px;
+  height: 30px; /* Should be removed. Only for demonstration */
+}
+
+.columnTime {
+  float: left;
+  width: 15%;
+  padding: 8px;
+  height: 30px; /* Should be removed. Only for demonstration */
+}
+
+.columnSite {
+  float: right;
+  width: 10%;
+  padding: 8px;
+  height: 30px; /* Should be removed. Only for demonstration */
+}
+
+.row {
+  padding-left: 2%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+
+.divrightfloat {
+  float: right;
+}
